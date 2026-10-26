@@ -15,7 +15,7 @@ It functions mainly as a svn repository browser like tig(https://github.com/jona
 ## Installation
 
 ~~~shell
-$ curl -L https://github.com/YoshihideShirai/tuisvn/releases/download/v0.0.3/tuisvn-v0.0.3-linux-amd64.tar.gz | sudo tar xzvf - -C /usr/local/bin
+go install github.com/YoshihideShirai/tuisvn@latest
 ~~~
 
 ## Key bindings
@@ -51,7 +51,7 @@ $ curl -L https://github.com/YoshihideShirai/tuisvn/releases/download/v0.0.3/tui
 ## Usage
 
 ~~~shell
-$ tuisvn [repository path or url]
+tuisvn [repository path or url]
 ~~~
 If argv is omitted, repository path is set the current directory.
 
